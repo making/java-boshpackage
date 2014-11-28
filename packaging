@@ -6,5 +6,5 @@ set -u # report the usage of uninitialized variables
 # $BOSH_INSTALL_TARGET - where you copy/install files to be included in package
 export HOME=/var/vcap
 
-tar xfv java/openjdk-jdk-trusty-1.8.0_25.tar.gz
+tar xfv java/openjdk-jre-trusty-1.8.0_25.tar.gz
 cp -a ./* $BOSH_INSTALL_TARGET
