@@ -37,6 +37,6 @@ The files can be downloaded from the following locations:
 | -------- | -------- | -------- | ------------ |
 | lucid | JRE | 1.7.0_55 | https://download.run.pivotal.io/openjdk/lucid/x86_64/openjdk-1.7.0_55.tar.gz | openjdk-jre-lucid-1.7.0_55.tar.gz |
 | trusty | JDK | 1.7.0_65 | https://download.run.pivotal.io/openjdk-jdk/trusty/x86_64/openjdk-1.7.0_65.tar.gz | openjdk-jdk-trusty-1.7.0_65.tar.gz |
-| trusty | JRE | 1.7.0_65 | https://download.run.pivotal.io/openjdk/trusty/x86_64/openjdk-1.7.0_65.tar.gz | openjdk-jdk-trusty-1.7.0_65.tar.gz |
+| trusty | JRE | 1.7.0_65 | https://download.run.pivotal.io/openjdk/trusty/x86_64/openjdk-1.7.0_65.tar.gz | openjdk-jre-trusty-1.7.0_65.tar.gz |
 | trusty | JDK | 1.8.0_25 | https://download.run.pivotal.io/openjdk-jdk/trusty/x86_64/openjdk-1.8.0_25.tar.gz | openjdk-jdk-trusty-1.8.0_25.tar.gz |
 | trusty | JRE | 1.8.0_25 | https://download.run.pivotal.io/openjdk/trusty/x86_64/openjdk-1.8.0_25.tar.gz | openjdk-jre-trusty-1.8.0_25.tar.gz |
