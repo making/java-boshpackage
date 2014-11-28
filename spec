@@ -1,7 +1,7 @@
 ---
-name: java7
+name: java
 
 dependencies: []
 
 files:
-  - java7/openjdk-1.7.0_65.tar.gz
+  - java/openjdk-jre-lucid-1.7.0_55.tar.gz
