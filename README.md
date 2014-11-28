@@ -26,7 +26,6 @@ $~/bosh-release-x/tmp> wget <url> -O <output filename>
 ```bash
 $~/bosh-release-x> bosh add blob tmp/<output filename> java
 ```
-_** make sure to not add/commit this tar file to you repository!_
 5. Adapt your bosh release dependencies, scripts, etc..., to match this new package
 6. Finally test and do a final release
 
@@ -34,7 +33,7 @@ _** make sure to not add/commit this tar file to you repository!_
 The files can be downloaded from the following locations:
 
 | OS | Type | Version | Download URL | Output Filname |
-| -------- | -------- | -------- | ------------ |
+| -------- | -------- | -------- | ------------ | -------- |
 | lucid | JRE | 1.7.0_55 | https://download.run.pivotal.io/openjdk/lucid/x86_64/openjdk-1.7.0_55.tar.gz | openjdk-jre-lucid-1.7.0_55.tar.gz |
 | trusty | JDK | 1.7.0_65 | https://download.run.pivotal.io/openjdk-jdk/trusty/x86_64/openjdk-1.7.0_65.tar.gz | openjdk-jdk-trusty-1.7.0_65.tar.gz |
 | trusty | JRE | 1.7.0_65 | https://download.run.pivotal.io/openjdk/trusty/x86_64/openjdk-1.7.0_65.tar.gz | openjdk-jre-trusty-1.7.0_65.tar.gz |
