@@ -7,28 +7,28 @@ This project is used for java packages in BOSH releases.
 1. Add this repository to your bosh release project packages folder:
 
    ```bash
-   $> cd ~/bosh-release-x
-   $~/bosh-release-x> git submodule add https://github.wdf.sap.corp/idefix/bosh-package-java packages/java
+   $> cd ~/x-boshrelease
+   $~/bosh-release-x> git submodule add https://github.com/hybris/java-boshpackage packages/java
    ```
 2. Checkout the version you need by looking at the available tags:
 
    ```bash
-   $~/bosh-release-x> git submodule update --init --recursive
-   $~/bosh-release-x> cd packages/java
-   $~/bosh-release-x/packages/java> git checkout <tagname>
-   $~/bosh-release-x/packages/java> cd ..
-   $~/bosh-release-x>
+   $~/x-boshrelease> git submodule update --init --recursive
+   $~/x-boshrelease> cd packages/java
+   $~/x-boshrelease/packages/java> git checkout <tagname>
+   $~/x-boshrelease/packages/java> cd ..
+   $~/x-boshrelease>
    ```
 3. Download the java tar file matching the tag you selected (see table below for the *url* and *output filename*).
 
    ```bash
-   $~/bosh-release-x> cd tmp
-   $~/bosh-release-x/tmp> wget <url> -O <output filename>
+   $~/x-boshrelease> cd tmp
+   $~/x-boshrelease/tmp> wget <url> -O <output filename>
    ```
 4. Add the downloaded file to your project blobs
 
    ```bash
-   $~/bosh-release-x> bosh add blob tmp/<output filename> java
+   $~/x-boshrelease> bosh add blob tmp/<output filename> java
    ```
 5. Adapt your bosh release dependencies, scripts, etc..., to match this new package
 6. Finally test and do a final release
