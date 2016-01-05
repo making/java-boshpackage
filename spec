@@ -4,4 +4,4 @@ name: java
 dependencies: []
 
 files:
-  - java/openjdk-jre-trusty-1.8.0_45.tar.gz
+  - java/openjdk-jre-trusty-1.8.0_65.tar.gz
