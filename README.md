@@ -47,3 +47,4 @@ The files can be downloaded from the following locations:
 | trusty | JRE | 1.8.0_40 | https://download.run.pivotal.io/openjdk/trusty/x86_64/openjdk-1.8.0_40.tar.gz | openjdk-jre-trusty-1.8.0_40.tar.gz |
 | trusty | JDK | 1.8.0_45 | https://download.run.pivotal.io/openjdk-jdk/trusty/x86_64/openjdk-1.8.0_45.tar.gz | openjdk-jdk-trusty-1.8.0_45.tar.gz |
 | trusty | JRE | 1.8.0_45 | https://download.run.pivotal.io/openjdk/trusty/x86_64/openjdk-1.8.0_45.tar.gz | openjdk-jre-trusty-1.8.0_45.tar.gz |
+| trusty | JDK | 1.8.0_65 | https://download.run.pivotal.io/openjdk-jdk/trusty/x86_64/openjdk-1.8.0_65.tar.gz | openjdk-jdk-trusty-1.8.0_65.tar.gz |
