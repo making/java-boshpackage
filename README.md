@@ -8,7 +8,7 @@ This project is used for java packages in BOSH releases.
 
    ```bash
    $> cd ~/x-boshrelease
-   $~/bosh-release-x> git submodule add https://github.com/hybris/java-boshpackage packages/java
+   $~/bosh-release-x> git submodule add https://github.com/making/java-boshpackage packages/java
    ```
 2. Checkout the version you need by looking at the available tags:
 
