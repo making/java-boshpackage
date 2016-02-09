@@ -1,5 +1,5 @@
 #!/bin/sh
-VERSION=1.8.0_71
+VERSION=1.8.0_73
 FILENAME=openjdk-jdk-trusty-${VERSION}.tar.gz
 mkdir -p ../../tmp
 pushd ../../tmp
