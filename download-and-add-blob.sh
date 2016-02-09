@@ -7,6 +7,6 @@ if [ ! -f ${FILENAME} ]; then
     wget https://download.run.pivotal.io/openjdk-jdk/trusty/x86_64/openjdk-${VERSION}.tar.gz -O ${FILENAME}
 fi
 cd ..
-bosh add blob tmp/${FILENAME} jdk
+bosh add blob tmp/${FILENAME} java
 popd
 
